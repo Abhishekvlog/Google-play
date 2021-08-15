@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:padding="20dp"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/taso"/>
+    <TextView
+        android:id="@+id/nameofapp"
+        android:layout_below="@+id/img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Weather"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        />
+    <ImageView
+        android:id="@+id/more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_more"
+        android:layout_below="@id/img"
+        android:layout_marginStart="150dp"/>
+    <TextView
+        android:id="@+id/tvFree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="Free"
+        android:textColor="#00A300"
+        android:layout_below="@id/more"
+        android:layout_marginStart="150dp"/>
+
+
+
+</RelativeLayout>
